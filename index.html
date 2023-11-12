@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta n ame="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="password-container">
+            <h2>Generate <br>Random Password</h2>
+            <input type="text" id="password-output" readonly>
+            <button id="copy-button">
+                <img src="images\copy.png" alt="Copy to Clipboard">
+              </button>
+            
+            <div class="range-container">
+              <label for="length-range">Password length:</label> 
+              <input type="number" id="length-range" min="4" max="24" value="8">
+            </div>
+          
+            <button id="generate-button">Generate Password</button>
+          </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
